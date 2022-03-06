@@ -123,6 +123,7 @@ export default function App() {
           />
 
           <Route path="/Dropdown" element={<Dropdown />} />
+          <Route component={<div> Error 404 </div>} />
         </Routes>
       </Router>
     </div>
