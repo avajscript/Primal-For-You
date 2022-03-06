@@ -89,7 +89,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/Primal-For-You">
         <Navbar
           cart={cart}
           cartValue={cartValue}
